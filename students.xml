@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+  <student>
+    <name>Likai Ren</name>
+    <id>e1201757</id>
+    <nationality>China</nationality>
+  </student>
+  <student>
+    <name>John</name>
+    <id>123456</id>
+    <nationality>Finland</nationality>
+  </student>
+</students>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--login modal-->
+<div class="modal-dialog">
+    <div>
+        <div class="modal-content">
+
+            <!-- Header Section -->
+            <div class="modal-header">
+                <h2 class="modal-title">Students Management System</h2>
+            </div>
+
+            <!-- Body Section -->
+            <div class="modal-body">
+                <form role="form" action="./students" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg"
+                               placeholder="Name" name="name" required autofocus />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg"
+                               placeholder="Student ID" name="id" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg"
+                               placeholder="Nationality" name="nationality" required />
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block">Submit</button>
+                </form>
+            </div>
+
+            <!-- Footer Section -->
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
